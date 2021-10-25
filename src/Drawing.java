@@ -206,7 +206,8 @@ public class Drawing extends JFrame implements KeyListener {
     // bruges ved tryk ned:
     @Override
     public void keyPressed(KeyEvent e) {
-        String filepath = "soundStepInWater.wav";
+        // SKAL anvende 16-bit wav eller AIFF lyd for at virke - konverter evt lyd med https://www.audacityteam.org/download/windows/:
+        String filepath = "Footsteps.wav";
         SoundPlayer myPlayer = new SoundPlayer();
 
         // sæt nye tile-koordinater ved piletryk:

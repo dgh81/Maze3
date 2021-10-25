@@ -31,9 +31,9 @@ public class SoundPlayer {
     public static void main(String[] args) {
         // String filepath = "sound.wav";
 //        String filepath = "soundStepInWater.wav";
-//        String filepath = "soundStepOnDirt.wav";
+        String filepath = "soundStepOnDirt.wav";
 
-        String filepath = "soundStepInWater.wav";
+        //String filepath = "soundStepInWater.wav";
         SoundPlayer myPlayer = new SoundPlayer();
         myPlayer.playMusic(filepath);
     }
